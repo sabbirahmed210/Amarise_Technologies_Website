@@ -1,0 +1,1378 @@
+@media only screen and (max-width:1280px){
+/* First Half  */
+.first_5{
+    position: absolute;
+    width: 100%;
+    height: 500vh;
+    background-image: url(/img/first-5v2.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position:0%;
+    z-index: 11;
+}
+.spacing{
+    height: 0;
+}
+header{
+    width: 50%;
+    position: relative;
+    left: 40%;
+    top: 40%;
+}
+.typewriter{
+    font-size: 40px;
+    font-family: "Nexa-Black",sans-serif;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    z-index: 1;
+}
+.short_des{
+    font-size: 18px;
+    font-family: "Nexa-light",sans-serif !important;
+    opacity: 1;
+    position: relative;
+    animation: short_des 5s 1;
+    z-index: 1;
+}
+.mission_vision{
+    width: 60%;
+    float: right;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    column-gap: 40px;
+}
+.mission h4, .vision h4{
+    font-size: 20px;
+    font-family: "Nexa-Black",sans-serif;  
+}
+.mission p, .vision p{
+    font-size: 16px;
+    font-family: 'Nexa-light', sans-serif; 
+}
+.meteor-1{
+    width: 200px;
+    transform: rotate(10deg);
+    animation: meteor_1 3s infinite;
+    opacity: 0;
+}
+@keyframes meteor_1 {
+    from{
+        position: relative;
+        top: -200px;
+        left: 40%;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        top:0px;
+        left: -50%;
+        opacity: 1;
+    }
+}
+.meteor-2{
+    width: 300px;
+    transform: rotate(10deg);
+    animation: meteor_2 3s infinite;
+    animation-delay: 1s;
+}
+@keyframes meteor_2 {
+    from{
+        position: relative;
+        top: -200px;
+        left: 40%;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        top:100px;
+        left: -60%;
+    }
+}
+.services_list{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    column-gap: 50px;
+    margin-left: 5%;
+  }
+.services_list .s1 .Click-here img,
+.services_list .s1 .Click-here3 img,
+.services_list .s1 .Click-here5 img{
+    width: 350px;
+    height: 350px;
+}
+.services_title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Nexa-Black",sans-serif;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.services_list .s1{
+    width: 50%;
+    height: 440px;
+    text-align: center;
+}
+.s1 h3{
+    text-align: center;
+    font-family: "Nexa-Bold", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.services_list .s2{
+    width: 50%;
+    height: 440px;
+    text-align: center;
+}
+.s2 h3{
+    width: 320px;
+    text-align: center;
+    font-family: "Nexa-Bold", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.sem{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: -12%;
+    top: 0;
+  }
+.sem_glow{
+    position: absolute;
+    left: -12%;
+    top: 0;
+    opacity: 0.4;
+    visibility:hidden;
+  }
+.Click-here2 img{
+    width: 220px;
+    height: 220px;
+}
+.smm{
+    width:220px; 
+    height: 220px;
+    margin-top: 50px;
+  }
+.smm_glow{
+    width:220px; 
+    height: 220px;
+    position: absolute;
+    left: calc(15% + 1px);
+    opacity: 1;
+    visibility:hidden;
+    margin-top: 50px;
+  }
+  .meteor-3{
+    width: 300px;
+    position: absolute;
+    left: 60%;
+    top:46%;
+    animation: meteor_3 3s infinite;
+}
+@keyframes meteor_3 {
+    0%{
+        position: absolute;
+        top: 46%;
+        left: 60%;
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.2;
+    }
+    90%{
+        opacity: 0.1;
+    }
+    100%{
+        position: absolute;
+        left: 19%;
+        top: 52.5%;
+        opacity: 0;
+    }
+} 
+.meteor-4{
+    width: 200px;
+    position: absolute;
+    left: calc(70%);
+    top: 47.5%;
+    opacity: 0;
+    animation: meteor_4 2s infinite;
+    animation-delay: 3s;
+  }
+img.meteor-4{
+    transform: rotate(-25deg);
+}
+@keyframes meteor_4 {
+    0%{
+        position: absolute;
+        left: calc(70%);
+        top: 47.5%;
+        opacity: 1;
+    }
+    10%{
+        opacity: 0.9;
+    }
+    20%{
+        opacity: 0.8;
+    }
+    30%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.4;
+    }
+    70%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.2;
+    }
+    90%{
+        opacity: 0.1;
+    }
+    100%{
+        position: absolute;
+        left: calc(70% - 296px);
+        top: calc(47.5% + 247px);
+        opacity: 0;
+    }
+}
+.graphic{
+    position: relative;
+    left: -12%;
+    top: 0;
+}
+.graphic_glow{
+  position: absolute;
+  left: -12%;
+  top: 0;
+  visibility: hidden;
+}
+.web{
+   margin-top: 41px;
+   width: 330px;
+   margin-top: 10px;
+   position: relative;
+   left: 0%;
+   top: 0;
+}
+.web_glow{
+   width: 330px;
+   position: absolute;
+   left: 0;
+   top: -7%;
+   opacity: 1;
+   visibility:hidden;
+   margin-top: 41px;
+}
+.branding{
+    position: relative;
+    left: 0%;
+    top: 0;
+}
+.branding_glow{
+    position: absolute;
+    left: 0%;
+    top: 0;
+    opacity: 1;
+    visibility: hidden;
+}
+.photography{
+   width: 320px;
+   height: 320px;
+}
+.photography_glow{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left:calc(0%);
+    top: 0;
+    opacity: 1;
+    visibility: hidden;
+}
+.middle{
+    widows: 100%;
+    height:200vh;
+    background-color: #000;
+    background: url(/img/Calme.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 500vh;
+}
+.section_6{
+    width: 100%;
+    height: 100vh;
+  }
+.section_7 {
+    height: 100vh;
+    width: 100%;
+    padding: 10% 10%;
+  }
+  .section_7 .calme {
+    height: 15%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+ /*  .calme .title {
+    
+  } */
+  .calme .title h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Nexa-Black",sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 46px;
+    vertical-align: baseline;
+  }
+  .about_us{
+    float: left;
+    width: 50%;
+    color: #fff;
+  }
+  .about_us p{
+    font-family: 'Nexa-light',sans-serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .section_8 {
+    height: 4000px;
+    width: 100%;
+    background-image: url(/img/section_8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    position: relative;
+    top: 500vh;
+    overflow: hidden;
+  }
+  .section_8-1 {
+    background:url(/img/lower-workflow-bg.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 500vh;
+    overflow: hidden;
+    color: #000;
+  }
+  .section_8-1 .textOverparallax {
+  z-index: 72;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  }
+  .section_8-1 .textOverparallax p{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin:0;
+  font-family: "better-grade-font";
+  font-size: 40px;
+  }
+  .section_8-1 .astronaut{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: -30px;
+  }
+  .section_8-1 .astronaut img{
+    position: relative;
+    right: 10%;
+    width: 300px;
+    height: 300px;
+  }
+  .portfolio_container {
+    position: relative;
+    top: 500vh;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #231434;
+  }
+  /*   Motion Portfolio section */
+.section_10{
+    height: 195vh;
+    width: 100%;
+    background-color: #e6e6e6;
+    background: url(/img/portfolio-bg-overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 500vh;
+  }
+  .equipe1 {
+    position: absolute;
+    left: 5%;
+    top: 10vh;
+    width: 500px;
+    height: 500px;
+  }
+  .equipe1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe2 {
+    position: absolute;
+    top: calc(25vh + 20px);
+    left: calc(55% - 90px);
+    width: 600px;
+    height: 600px;
+  }
+  .equipe2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe3 {
+    position: absolute;
+    left: 5%;
+    top: calc(66vh + 40px);
+    width: 500px;
+    height: 500px;
+  }
+  .equipe3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe4 {
+    position: absolute;
+    top: calc(100vh - 10px);
+    left: calc(55% - 90px);
+    width: 600px;
+    height: 600px;
+  }
+  .equipe4 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe5 {
+    position: absolute;
+    left: 5%;
+    top: calc(125vh + 70px);
+    width: 500px;
+    height: 500px;
+  }
+  .equipe5 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .moving_avater img{
+    width: 20%;
+    position: absolute;
+    left: calc(4% - 65px);
+    top:-650px;
+    animation: austronut2 15s ease-in-out;
+  }
+  @keyframes austronut2 {
+    from{
+      top: 1200px;
+    }
+    to{
+      top: -650px;
+    }
+  }
+  .section_11{
+    height: 45vh;
+    width: 100%;
+    background:url(/img/client-review.png) ;
+    position: relative;
+    top: 500vh;
+  }
+  .section_12 {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    background: url(/img/Why-choose-us.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: calc(500vh - 2px);
+    overflow: hidden;
+    padding: 5% 10%;
+  }
+  .section_13 {
+    height: calc(100vh);
+    width: 100%;
+    position: relative;
+    top: calc(500vh - 2px);
+  }
+  .section_14{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    position: relative;
+    top: 500vh;
+    padding: 3%;
+  }
+}
+@media screen and (min-width:2400px) {
+    .first_5{
+        position: absolute;
+        width: 100%;
+        height: 5400px;
+        background-image: url(/img/first-5v2.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        z-index: 11;
+    }
+    .header-container {
+        width: 100%;
+        height: 1080px;
+        color: #ffffff;
+        padding: 0 10%; 
+        display: flex;
+        overflow: hidden;
+    } 
+    .section_2{
+        width: 100%;
+        height: 1080px;
+        color: rgb(255, 255, 255);
+        padding:5% 10% ;
+        position: relative;
+    }
+    .section_3{
+        width: 100%;
+        height: 1080px;
+        color: #fff;
+        padding-top:5%;
+      }
+      .spacing{
+        height: 0;
+      }
+    .section_4{
+        width: 100%;
+        height: 1080px;
+        padding-top:12%;
+        color: #fff;
+        
+    }
+    .section_5 {
+        width: 100%;
+        height: 1080px;
+        padding-top:15%;
+        color: #fff;
+    }
+    .middle{
+        widows: 100%;
+        height:2160;
+        background-color: #000;
+        background: url(/img/Calme.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 5399px;
+    }
+    .section_6{
+        width: 100%;
+        height: 1080px;
+      }
+    .section_7{
+        width: 100%;
+        height: 1080px;
+    }
+    .section_8 {
+        height: 4050px;
+        width: 100%;
+        background-image: url(/img/section_8.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        position: relative;
+        top: 5398px;
+        overflow: hidden;
+      }
+      .line_container{
+        max-width:1920px;
+        height: 100%;
+        margin-left: 100px;
+      }
+      .section_8-1 {
+        background:url(/img/lower-workflow-bg.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        position: relative;
+        top: 5397px;
+        overflow: hidden;
+        color: #000;
+      }
+      .portfolio_container {
+        position: relative;
+        top: 5397px;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        background-color: #231434;
+      }
+      .section_10{
+        height: 2060px;
+        width: 100%;
+        background-color: #e6e6e6;
+        background: url(/img/portfolio-bg-overlay.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 5397px;
+      }
+      .section_11{
+        height: 440px;
+        width: 100%;
+        background:url(/img/client-review.png) ;
+        position: relative;
+        top: 5397px;
+      }
+      .section_12 {
+        height: 735px;
+        width: 100%;
+        position: relative;
+        background: url(/img/Why-choose-us.png);
+        top: 5397px;
+        overflow: hidden;
+        padding: 5% 10%;
+      }
+      .section_13 {
+        height: 980px;
+        width: 100%;
+        position: relative;
+        top: 5397px;
+      }
+      .info_slide{
+        background-image: url(/img/ContactUS.png);
+        background-position: center;
+        height: 637px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+      }
+      .map{
+        height: 343px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+      }
+      .section_14{
+        width: 100%;
+        height: 200px;
+        background-color: #000000;
+        position: relative;
+        top: 5397px;
+        padding: 3%;
+      }
+    /* PopUp Section End */
+  .sem{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+  }
+  .sem_glow{
+    position: absolute;
+    left: 11%;
+    margin-top: -10px;
+    opacity: 0.4;
+    visibility:hidden;
+  }
+  .smm{
+    margin-top: 95px;
+    width:270px; 
+    height: 270px;
+    margin-bottom: 85px;
+  }
+  .smm_glow{
+    width:270px; 
+    height: 270px;
+    position: absolute;
+    left: 26.5%;
+    opacity: 1;
+    visibility:hidden;
+    margin-top: 95px;
+  }
+  .graphic{
+    
+  }
+  .graphic_glow{
+    position: absolute;
+    left: 11%;
+    visibility: hidden;
+  }
+  .web{
+    margin-top: 41px;
+    width: 400px;
+    margin-bottom: -5px;
+  }
+  .web_glow{
+    width: 400px;
+    position: absolute;
+    left: calc(16% - 5px);
+    opacity: 1;
+    visibility:hidden;
+    margin-top: 41px;
+  }
+  
+  .branding{
+  
+  }
+  .branding_glow{
+    position: absolute;
+    left: 11%;
+    opacity: 1;
+    visibility: hidden;
+  }
+  .photography{
+   margin-bottom: 52px;
+   width: 400px;
+   height: 400px;
+  }
+  .photography_glow{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left:calc(16% - 5px);
+    opacity: 1;
+    visibility: hidden;
+  }
+  .equipe1 {
+    position: absolute;
+    right: calc(50% + 110px);
+    top: 5%;
+    width: 600px;
+    height: 600px;
+  }
+  .equipe1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe2 {
+    position: absolute;
+    top: calc(11%);
+    left: calc(50% - 50px);
+    width: 800px;
+    height: 800px;
+  }
+  .equipe2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe3 {
+    position: absolute;
+    right: calc(50% + 110px);
+    top: calc(35% + 40px);
+    width: 600px;
+    height: 600px;
+  }
+  .equipe3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe4 {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(50% - 50px);
+    width: 800px;
+    height: 800px;
+  }
+  .equipe4 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .equipe5 {
+    position: absolute;
+    right: calc(50% + 110px);
+    top: calc(67% + 40px);
+    width: 600px;
+    height: 600px;
+  }
+  .equipe5 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .moving_avater img{
+    width: 20%;
+    position: absolute;
+    left: calc(4% - 65px);
+    top:-650px;
+    animation: austronut2 15s ease-in-out;
+  }
+  @keyframes austronut2 {
+    from{
+      top: 1200px;
+    }
+    to{
+      top: -650px;
+    }
+  }
+}
+
+@media only screen and (max-width:1366px){
+    .first_5{
+        width: 100%;
+        height: 500vh;
+        background-image: url(/img/first-5v2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        overflow: hidden; 
+    }
+    header{
+        width: 50%;
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .typewriter{
+        font-size: 40px;
+        font-family: "Nexa-Black",sans-serif;
+        text-transform: uppercase;
+        word-spacing: 10px;
+        z-index: 1;
+    }
+    .short_des{
+        font-size: 18px;
+        font-family: "Nexa-light",sans-serif !important;
+        opacity: 1;
+        position: relative;
+        animation: short_des 5s 1;
+        z-index: 1;
+    }
+    .spacing{
+        height: 0;
+    }
+    .section_2{
+        width: 100%;
+        height: 100vh;
+        color: rgb(255, 255, 255);
+        padding:5% 10% ;
+        position: relative;
+        vertical-align: middle;
+    }
+    .mission_vision{
+        width: 60%;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        column-gap: 40px;
+    }
+    .mission h4, .vision h4{
+        font-size: 20px;
+        font-family: "Nexa-Black",sans-serif;  
+    }
+    .mission p, .vision p{
+        font-size: 16px;
+        font-family: 'Nexa-light', sans-serif; 
+    }
+    .meteor-1{
+        width: 200px;
+        transform: rotate(10deg);
+        animation: meteor_1 3s infinite;
+        opacity: 0;
+    }
+    @keyframes meteor_1 {
+        from{
+            position: relative;
+            top: -200px;
+            left: 40%;
+            opacity: 0;
+        }
+        to{
+            position: relative;
+            top:0px;
+            left: -50%;
+            opacity: 1;
+        }
+    }
+    .meteor-2{
+        width: 300px;
+        transform: rotate(10deg);
+        animation: meteor_2 3s infinite;
+        animation-delay: 1s;
+    }
+    @keyframes meteor_2 {
+        from{
+            position: relative;
+            top: -200px;
+            left: 40%;
+            opacity: 0;
+        }
+        to{
+            position: relative;
+            top:100px;
+            left: -60%;
+        }
+    }
+    .services_list{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+        column-gap: 50px;
+        margin-left: 5%;
+      }
+    .services_list .s1 .Click-here img,
+    .services_list .s1 .Click-here3 img,
+    .services_list .s1 .Click-here5 img{
+        width: 350px;
+        height: 350px;
+    }
+    .services_title h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Nexa-Black",sans-serif;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .services_list .s1{
+        width: 50%;
+        height: 440px;
+        text-align: center;
+    }
+    .s1 h3{
+        text-align: center;
+        font-family: "Nexa-Bold", sans-serif;
+        position: relative;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    .services_list .s2{
+        width: 50%;
+        height: 440px;
+        text-align: center;
+    }
+    .s2 h3{
+        width: 320px;
+        text-align: center;
+        font-family: "Nexa-Bold", sans-serif;
+        position: relative;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    .sem{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: -12%;
+        top: 0;
+      }
+    .sem_glow{
+        position: absolute;
+        left: -12%;
+        top: 0;
+        opacity: 0.4;
+        visibility:hidden;
+      }
+    .Click-here2 img{
+        width: 220px;
+        height: 220px;
+    }
+    .smm{
+        width:220px; 
+        height: 220px;
+        margin-top: 50px;
+      }
+    .smm_glow{
+        width:220px; 
+        height: 220px;
+        position: absolute;
+        left: calc(15% + 1px);
+        opacity: 1;
+        visibility:hidden;
+        margin-top: 50px;
+      }
+      .meteor-3{
+        width: 300px;
+        position: absolute;
+        left: 60%;
+        top:46%;
+        animation: meteor_3 3s infinite;
+    }
+    @keyframes meteor_3 {
+        0%{
+            position: absolute;
+            top: 46%;
+            left: 60%;
+            opacity: 1;
+        }
+        80%{
+            opacity: 0.2;
+        }
+        90%{
+            opacity: 0.1;
+        }
+        100%{
+            position: absolute;
+            left: 19%;
+            top: 52.5%;
+            opacity: 0;
+        }
+    } 
+    .meteor-4{
+        width: 200px;
+        position: absolute;
+        left: calc(70%);
+        top: 47.5%;
+        opacity: 0;
+        animation: meteor_4 2s infinite;
+        animation-delay: 3s;
+      }
+    img.meteor-4{
+        transform: rotate(-25deg);
+    }
+    @keyframes meteor_4 {
+        0%{
+            position: absolute;
+            left: calc(70%);
+            top: 47.5%;
+            opacity: 1;
+        }
+        10%{
+            opacity: 0.9;
+        }
+        20%{
+            opacity: 0.8;
+        }
+        30%{
+            opacity: 0.7;
+        }
+        40%{
+            opacity: 0.6;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        60%{
+            opacity: 0.4;
+        }
+        70%{
+            opacity: 0.3;
+        }
+        80%{
+            opacity: 0.2;
+        }
+        90%{
+            opacity: 0.1;
+        }
+        100%{
+            position: absolute;
+            left: calc(70% - 296px);
+            top: calc(47.5% + 247px);
+            opacity: 0;
+        }
+    }
+    .graphic{
+        position: relative;
+        left: -12%;
+        top: 0;
+    }
+    .graphic_glow{
+      position: absolute;
+      left: -12%;
+      top: 0;
+      visibility: hidden;
+    }
+    .web{
+       margin-top: 41px;
+       width: 330px;
+       margin-top: 10px;
+       position: relative;
+       left: 0%;
+       top: 0;
+    }
+    .web_glow{
+       width: 330px;
+       position: absolute;
+       left: 0;
+       top: -7%;
+       opacity: 1;
+       visibility:hidden;
+       margin-top: 41px;
+    }
+    .branding{
+        position: relative;
+        left: 0%;
+        top: 0;
+    }
+    .branding_glow{
+        position: absolute;
+        left: 0%;
+        top: 0;
+        opacity: 1;
+        visibility: hidden;
+    }
+    .photography{
+       width: 320px;
+       height: 320px;
+    }
+    .photography_glow{
+        width: 320px;
+        height: 320px;
+        position: absolute;
+        left:calc(0%);
+        top: 0;
+        opacity: 1;
+        visibility: hidden;
+    }
+    .middle{
+        widows: 100%;
+        height: 200vh;
+        background-color: #000;
+        background: url(/img/Calme.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: calc(500vh - 1px);
+    }
+    .section_6{
+        width: 100%;
+        height: 100vh;
+      }
+    .section_7 {
+        height: 100vh;
+        width: 100%;
+        padding:5% 10%;
+      }
+    .section_7 .calme {
+        height: 25%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      }
+    .calme .title h2 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "Nexa-Black",sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 46px;
+        vertical-align: baseline;
+      }
+    .about_us{
+        float: left;
+        width: 50%;
+        color: #fff;
+      }
+    .about_us p{
+        font-family: 'Nexa-light',sans-serif;
+        font-size: 16px;
+        text-align: justify;
+      }
+    .section_8 {
+        height: 4000px;
+        width: 100%;
+        background-image: url(/img/section_8.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        position: relative;
+        top: calc(500vh - 115px);
+        overflow: hidden;
+      }
+    .section_8-1 {
+        background:url(/img/lower-workflow-bg.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        position: relative;
+        top: calc(500vh - 116px);
+        overflow: hidden;
+        color: #000;
+      }
+      .section_8-1 .textOverparallax {
+      z-index: 72;
+      position: absolute;
+      top: 43%;
+      left: 10%;
+      color: rgb(255, 255, 255);
+      opacity: 1;
+      }
+      .section_8-1 .textOverparallax p{
+      color: rgb(255, 255, 255);
+      text-align: left;
+      margin:0;
+      font-family: "better-grade-font";
+      font-size: 40px;
+      }
+      .section_8-1 .astronaut{
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-top: -30px;
+      }
+    .section_8-1 .astronaut img{
+        position: relative;
+        right: 10%;
+        width: 300px;
+        height: 300px;
+      }
+    .portfolio_container {
+        position: relative;
+        top: calc(500vh - 116px);
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        background-color: #231434;
+      }
+      .section_10{
+        height: 1700px;
+        width: 100%;
+        background-color: #e6e6e6;
+        background: url(/img/portfolio-bg-overlay.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: calc(500vh - 116px);
+      }
+      .equipe1 {
+        position: absolute;
+        left: 7%;
+        top: 10vh;
+        width: 500px;
+        height: 500px;
+      }
+      .equipe1 video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .equipe2 {
+        position: absolute;
+        top: calc(25vh + 20px);
+        left: calc(52% - 90px);
+        width: 600px;
+        height: 600px;
+      }
+      .equipe2 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .equipe3 {
+        position: absolute;
+        left: 7%;
+        top: calc(66vh + 100px);
+        width: 500px;
+        height: 500px;
+      }
+      .equipe3 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .equipe4 {
+        position: absolute;
+        top: calc(100vh + 70px);
+        left: calc(52% - 90px);
+        width: 600px;
+        height: 600px;
+      }
+      .equipe4 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .equipe5 {
+        position: absolute;
+        left: 7%;
+        top: calc(125vh + 170px);
+        width: 500px;
+        height: 500px;
+      }
+      .equipe5 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .moving_avater img{
+        width: 20%;
+        position: absolute;
+        left: calc(4% - 65px);
+        top:-650px;
+        animation: austronut2 15s ease-in-out;
+      }
+      @keyframes austronut2 {
+        from{
+          top: 1200px;
+        }
+        to{
+          top: -650px;
+        }
+      }
+      .section_11{
+        height: 440px;
+        width: 100%;
+        background:url(/img/client-review.png) ;
+        position: relative;
+        top: calc(500vh - 116px);
+      }
+      .section_12 {
+        height: 75vh;
+        width: 100%;
+        position: relative;
+        background: url(/img/Why-choose-us.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        top: calc(500vh - 116px);
+        overflow: hidden;
+        padding: 5% 10%;
+      }
+      .section_13 {
+        height: calc(100vh + 100px);
+        width: 100%;
+        position: relative;
+        top: calc(500vh - 116px);
+      }
+      .info_slide{
+        background-image: url(/img/ContactUS.png);
+        background-position: center;
+        height: 65%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+      }
+      .map{
+        height: 35%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+      }
+      .section_14{
+        width: 100%;
+        height: 200px;
+        background-color: #000000;
+        position: relative;
+        top: calc(500vh - 116px);
+        padding: 3%;
+      }
+}

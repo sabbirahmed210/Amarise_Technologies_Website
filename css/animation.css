@@ -1,0 +1,161 @@
+.meteor-1{
+    width: 200px;
+    animation: meteor_1 3s infinite;
+    opacity: 0;
+}
+@keyframes meteor_1 {
+    from{
+        position: relative;
+        top: -400px;
+        left: 40%;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        top:0px;
+        left: -50%;
+        opacity: 1;
+    }
+}
+.meteor-2{
+    width: 300px;
+    animation: meteor_2 3s infinite;
+    animation-delay: 1s;
+}
+@keyframes meteor_2 {
+    from{
+        position: relative;
+        top: -400px;
+        left: 40%;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        top:100px;
+        left: -50%;
+    }
+}
+.meteor-3{
+    width: 300px;
+    position: absolute;
+    left: 60%;
+    top:46%;
+    animation: meteor_3 3s infinite;
+}
+@keyframes meteor_3 {
+    0%{
+        position: absolute;
+        top: 46%;
+        left: 60%;
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.2;
+    }
+    90%{
+        opacity: 0.1;
+    }
+    100%{
+        position: absolute;
+        left: 22%;
+        top: 53.5%;
+        opacity: 0;
+    }
+} 
+.meteor-4{
+    width: 200px;
+    position: absolute;
+    left: calc(70%);
+    top: 47.5%;
+    opacity: 0;
+    animation: meteor_4 2s infinite;
+    animation-delay: 3s;
+  }
+img.meteor-4{
+    transform: rotate(-25deg);
+}
+@keyframes meteor_4 {
+    0%{
+        position: absolute;
+        left: calc(70%);
+        top: 47.5%;
+        opacity: 1;
+    }
+    10%{
+        opacity: 0.9;
+    }
+    20%{
+        opacity: 0.8;
+    }
+    30%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.4;
+    }
+    70%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.2;
+    }
+    90%{
+        opacity: 0.1;
+    }
+    100%{
+        position: absolute;
+        left: calc(70% - 396px);
+        top: calc(47.5% + 347px);
+        opacity: 0;
+    }
+}
+.meteor-5{
+    width: 300px;
+    position: absolute;
+    left: 45%;
+    top:59%;
+    animation: meteor_5 2.5s infinite;
+}
+img.meteor-5{
+    transform: rotate(-120deg);
+}
+/* @keyframes meteor_5 {
+    0%{
+        position: absolute;
+        left: 45%;
+        top:59%;
+    }
+    100%{
+        position: absolute;
+        left:95%;
+        top:65%;
+    }
+} */
+@media only screen and (max-width:1680px) {
+    .meteor-1{
+        width: 200px;
+        animation: meteor_1 3s infinite;
+        opacity: 0;
+        transform: rotate(5deg);
+    }
+    @keyframes meteor_1 {
+        from{
+            position: relative;
+            top: -200px;
+            left: 40%;
+            opacity: 0;
+        }
+        to{
+            position: relative;
+            top:200px;
+            left: -50%;
+            opacity: 1;
+        }
+    }
+}
